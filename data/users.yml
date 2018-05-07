@@ -1,4 +1,20 @@
-- name: 'Sébastien Saunier'
-  github_nickname: 'ssaunier'
-- name: 'Boris Paillard'
-  github_nickname: 'Papillard'
+- city: "Paris, France"
+  cityid: "paris"
+  name: 'Boris Paillard'
+  nickname: 'Papillard'
+- city: "London, UK"
+  cityid: "london"
+  name: 'Sébastien Saunier'
+  nickname: 'ssaunier'
+- city: "Tokyo, Japan"
+  cityid: "tokyo"
+  name: 'Kevin Robert'
+  nickname: 'krokrob'
+- city: "Rio de Janeiro, Brazil"
+  cityid: "rio"
+  name: 'Julien Da Silva'
+  nickname: 'juliends'
+- city: "Bali, Indonesia"
+  cityid: "bali"
+  name: 'Romain Paillard'
+  nickname: 'monsieurpaillard'

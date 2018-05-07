@@ -4,12 +4,31 @@ title: Le Wagon - Middleman
 
 <div id="home">
   <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+      <div class="banner-content">
+        <%= image_tag "logo.png", id: "logo", width: "300" %>
+        <p>Change your life, Learn to code.</p>
+        <a href="#" class="btn">Apply now</a>
+      </div>
   </div>
+
+  <div class="cards-content">
+    <div class="container">
+      <div class="row">
+        <% data.users.each do |user| %>
+        <div class="col-xs-12 col-sm-4">
+          <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/<%= user.cityid %>');">
+            <div class="card-category"><%= user.city %></div>
+            <div class="card-description">
+              <h2><%= user.name %></h2>
+              <p>Very cool city, the best</p>
+            </div>
+            <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/<%= user.nickname %>">
+            <a class="card-link" href="http://www.lewagon.org" ></a>
+          </div>
+        </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+
 </div>

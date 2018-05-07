@@ -1,0 +1,27 @@
+.footer {
+  background: white;
+  color: $red;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+  z-index: 1000;
+}
+
+.footer-links {
+  a {
+    text-decoration: none;
+    color: $red;
+    letter-spacing: 4px;
+    &:hover {
+      color: $light-gray;
+    }
+  }
+}
+
+.footer-copyright {
+  color: $gray;
+  font-weight: lighter;
+  font-size: 13px;
+}

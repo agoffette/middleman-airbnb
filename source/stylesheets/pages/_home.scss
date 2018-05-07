@@ -1,17 +1,18 @@
-#home {
-  background-color: #D23333;
+.home-content {
+  background-color: $red;
   color: white;
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
   text-align: center;
+  z-index: 0;
   p {
     margin-top: 1.5em;
   }
-  a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
-  }
+}
+
+.cards-content {
+  display: flex;
+  padding: 40px;
+  background: $red;
 }
