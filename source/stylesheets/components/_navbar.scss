@@ -76,3 +76,15 @@
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
+
+.btn-nav {
+  text-decoration: none;
+  font-size: 13px;
+  color: $red;
+  font-weight: lighter;
+  &:hover {
+    color: $red;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+}
